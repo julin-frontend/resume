@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+.container {
+    margin: auto;
+    max-width: 750px;
+    padding-top: 30px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #0f141e;
+    background: #ffffff;
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info-text p {
+    color: #0f141eae;
+    margin: 0;
+}
+
+.info-text h4 {
+    margin-bottom: 5px;
+}
+
+.card {
+    border-radius: 20px;
+    padding: 15px 25px;
+    margin-bottom: 20px;
+}
+
+.bg-grey h2 {
+    margin-bottom: 10px;
+    color: #0f141e;
+}
+
+.bg-grey {
+    background: rgb(238, 238, 238);
+}
+
+.bg-black {
+    background: #0f141e;
+}
+
+.avatar {
+    width: 230px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .20);
+}
+
+a {
+    color: rgb(9, 40, 177);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(92, 0, 113);
+}
+
+a:hover {
+    color: rgb(215, 11, 11);
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(0, 0, 66);
+}
+
+.btn {
+    background: rgb(255, 255, 255);
+    padding: 15px 20px;
+    color: #0f141e;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: inherit;
+    font-weight: 900;
+    font-size: 14px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+table {
+    width: 100%;
+}
+
+thead th{
+    padding-bottom: 10px;
+}
+
+table td {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+table td:nth-child(2), table td:nth-child(3) {
+    color: #0f141eae;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    color: #0f141eae;
+    margin-bottom: 10px;
+}
+
+form h2 {
+    color: #fff;
+    text-align: center;
+}
+
+.name-email {
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.name-email .form-group {
+    margin-right: 20px;
+    width: 50%;
+}
+
+.name-email .form-group:last-child {
+    margin-right: 0;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(102, 102, 102);
+    color: rgb(255, 255, 255);
+    padding: 10px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.message {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 650px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+
+    .name-email {
+        display: block;
+    }
+
+    .name-email .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
